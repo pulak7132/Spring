@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Guru/2. Building a Spring Boot Web App - springweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - n3-di-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - spring5-di-demo-di-assignment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-petclinic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-petclinic/petclinicWeb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-petclinic/petcllinicData" charset="UTF-8" />
+  </component>
+</project>

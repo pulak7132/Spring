@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - spring5-di-demo-di-assignment/di-demo.iml" filepath="$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - spring5-di-demo-di-assignment/di-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - n3-di-demo/n3-di-demo.iml" filepath="$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - n3-di-demo/n3-di-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-petclinic/petclinicWeb/petclinicWeb.iml" filepath="$PROJECT_DIR$/spring-petclinic/petclinicWeb/petclinicWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-petclinic/petcllinicData/petcllinicData.iml" filepath="$PROJECT_DIR$/spring-petclinic/petcllinicData/petcllinicData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-petclinic/spring-petclinic.iml" filepath="$PROJECT_DIR$/spring-petclinic/spring-petclinic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guru/2. Building a Spring Boot Web App - springweb/springweb.iml" filepath="$PROJECT_DIR$/Guru/2. Building a Spring Boot Web App - springweb/springweb.iml" />
+    </modules>
+  </component>
+</project>

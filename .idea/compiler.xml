@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="petclinicWeb" />
+        <module name="n3-di-demo" />
+        <module name="petcllinicData" />
+        <module name="di-demo" />
+        <module name="springweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="di-demo" target="1.8" />
+      <module name="n3-di-demo" target="1.8" />
+      <module name="petclinicWeb" target="1.8" />
+      <module name="petcllinicData" target="1.8" />
+      <module name="spring-petclinic" target="1.8" />
+      <module name="springweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="di-demo" options="-parameters" />
+      <module name="n3-di-demo" options="-parameters" />
+      <module name="petclinicWeb" options="-parameters" />
+      <module name="petcllinicData" options="-parameters" />
+      <module name="spring-petclinic" options="-parameters" />
+      <module name="springweb" options="-parameters" />
+    </option>
+  </component>
+</project>
