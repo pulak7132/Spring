@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>petcllinicData</module>
+        <module>petclinicData</module>
         <module>petclinicWeb</module>
     </modules>
     <parent>
