@@ -2,9 +2,10 @@ package com.pulak.springframework.petclinic.services.map;
 
 import com.pulak.springframework.petclinic.model.Pet;
 import com.pulak.springframework.petclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {

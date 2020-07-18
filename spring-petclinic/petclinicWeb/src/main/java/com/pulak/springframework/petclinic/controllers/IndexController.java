@@ -1,4 +1,4 @@
-package com.pulak.springframework.springpetclinic.controllers;
+package com.pulak.springframework.petclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package com.pulak.springframework.springpetclinic;
+package com.pulak.springframework.petclinic;
 
-import org.testng.annotations.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.testng.annotations.Test;
 
 @SpringBootTest
 class SpringPetclinicApplicationTests {
