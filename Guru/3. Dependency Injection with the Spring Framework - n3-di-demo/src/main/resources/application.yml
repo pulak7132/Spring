@@ -1,0 +1,11 @@
+pulak:
+    jms:
+      username: jmsuser
+      password: jmspassword
+      url:      dburl
+---
+spring:
+  profiles: jp
+pulak:
+  jms:
+    username: purak

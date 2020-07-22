@@ -9,6 +9,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
+//@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
+//@PropertySources({
+//        @PropertySource("classpath:datasource.properties"),
+//        @PropertySource("classpath:jms.properties")
+//})
 public class N3DiDemoApplication {
 
     public static void main(String[] args) {
