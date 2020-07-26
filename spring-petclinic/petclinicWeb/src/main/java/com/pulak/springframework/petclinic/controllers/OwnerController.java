@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.stream.Collectors;
 
-@RequestMapping("owners")
+@RequestMapping({"owners", "owners.html"})
 @Controller
 public class OwnerController {
     OwnerService ownerService;
@@ -16,7 +16,7 @@ public class OwnerController {
         this.ownerService = ownerService;
     }
 
-    @RequestMapping({"", "/index", "/index.html"})
+    @RequestMapping("")
     public String listOwners(Model model){
         model.addAttribute("oList", ownerService.findAll().stream().
                 sorted((x,y)->x.getId().compareTo(y.getId())).collect(Collectors.toList()));

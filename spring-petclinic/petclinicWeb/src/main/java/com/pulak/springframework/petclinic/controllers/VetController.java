@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.stream.Collectors;
 
-@RequestMapping("vets")
+@RequestMapping({"vets", "vets.html"})
 @Controller
 public class VetController {
     VetService vetService;
@@ -16,7 +16,7 @@ public class VetController {
         this.vetService = vetService;
     }
 
-    @RequestMapping({"", "/index", "/index.hmtl"})
+    @RequestMapping("")
     public String listVets(Model model){
         model.addAttribute("vList", vetService.findAll().stream().
                 sorted((x,y)->x.getId().compareTo(y.getId())).collect(Collectors.toList()));
