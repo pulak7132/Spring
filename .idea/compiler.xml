@@ -7,13 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="petclinicWeb" />
-        <module name="n3-di-demo" />
-        <module name="petcllinicData" />
+        <module name="07-10b.spring-java-config" />
+        <module name="07-10.spring-demo-annotations" />
+        <module name="04-06.springdemo-one" />
+        <module name="4. Jokes App" />
         <module name="di-demo" />
+        <module name="n3-di-demo" />
+        <module name="11-13.spring-mvc-demo" />
+        <module name="14.spring-form-tags" />
+        <module name="petcllinicData" />
         <module name="springweb" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="13">
+      <module name="04-06.springdemo-one" target="1.5" />
+      <module name="07-10.spring-demo-annotations" target="1.5" />
+      <module name="07-10b.spring-java-config" target="1.5" />
+      <module name="11-13.spring-mvc-demo" target="1.8" />
+      <module name="14.spring-form-tags" target="1.5" />
+      <module name="4. Jokes App" target="1.8" />
       <module name="di-demo" target="1.8" />
       <module name="n3-di-demo" target="1.8" />
       <module name="petclinicWeb" target="1.8" />
@@ -24,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="4. Jokes App" options="-parameters" />
       <module name="di-demo" options="-parameters" />
       <module name="n3-di-demo" options="-parameters" />
       <module name="petclinicWeb" options="-parameters" />

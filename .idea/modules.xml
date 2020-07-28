@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/04-06.springdemo-one.iml" filepath="$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/04-06.springdemo-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/07-10.spring-demo-annotations.iml" filepath="$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/07-10.spring-demo-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/07-10b.spring-java-config.iml" filepath="$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/07-10b.spring-java-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/11-13.spring-mvc-demo.iml" filepath="$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/11-13.spring-mvc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/14.spring-form-tags.iml" filepath="$PROJECT_DIR$/LoveToCode/04-06.springdemo-one/14.spring-form-tags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guru/4. Jokes App/4. Jokes App.iml" filepath="$PROJECT_DIR$/Guru/4. Jokes App/4. Jokes App.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - spring5-di-demo-di-assignment/di-demo.iml" filepath="$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - spring5-di-demo-di-assignment/di-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - n3-di-demo/n3-di-demo.iml" filepath="$PROJECT_DIR$/Guru/3. Dependency Injection with the Spring Framework - n3-di-demo/n3-di-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-petclinic/petclinicWeb/petclinicWeb.iml" filepath="$PROJECT_DIR$/spring-petclinic/petclinicWeb/petclinicWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-petclinic/petcllinicData/petcllinicData.iml" filepath="$PROJECT_DIR$/spring-petclinic/petcllinicData/petcllinicData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-petclinic/petclinicData/petcllinicData.iml" filepath="$PROJECT_DIR$/spring-petclinic/petclinicData/petcllinicData.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-petclinic/spring-petclinic.iml" filepath="$PROJECT_DIR$/spring-petclinic/spring-petclinic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Guru/2. Building a Spring Boot Web App - springweb/springweb.iml" filepath="$PROJECT_DIR$/Guru/2. Building a Spring Boot Web App - springweb/springweb.iml" />
     </modules>
