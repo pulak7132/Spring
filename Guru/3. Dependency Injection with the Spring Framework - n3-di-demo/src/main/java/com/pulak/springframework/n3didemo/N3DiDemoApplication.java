@@ -7,9 +7,10 @@ import com.pulak.springframework.n3didemo.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-//@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
+@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
 //@PropertySources({
 //        @PropertySource("classpath:datasource.properties"),
 //        @PropertySource("classpath:jms.properties")

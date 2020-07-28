@@ -1,8 +1,7 @@
-pulak:
-    jms:
-      username: jmsuser
-      password: jmspassword
-      url:      dburl
+#jms:
+#  username: yjmsuser
+#  password: yjmspassword
+#  url:      ydburl
 ---
 spring:
   profiles: jp
