@@ -26,10 +26,16 @@ public class GreetingServiceConfig {
     GreetingService primaryGermanGreetingService(GreetingServiceFactory greetingServiceFactory){
         return greetingServiceFactory.createGreetingService("de");
     }
+//    @Bean
+//    @Primary
+//    @Profile("es")
+//    GreetingService primarySpanishGreetingService(GreetingServiceFactory greetingServiceFactory){
+//        return greetingServiceFactory.createGreetingService("es");
+//    }
     @Bean
     @Primary
     @Profile("es")
-    GreetingService primarySpanishGreetingService(GreetingServiceFactory greetingServiceFactory){
-        return greetingServiceFactory.createGreetingService("es");
+    GreetingService primarySpanishGreetingService(GreetingRepository greetingRepository){
+        return greetingServiceFactory(greetingRepository).createGreetingService("es");
     }
 }
