@@ -2,11 +2,18 @@ package com.pulak.springframework.petclinic.services.map;
 
 import com.pulak.springframework.petclinic.model.Pet;
 import com.pulak.springframework.petclinic.services.PetService;
+import com.pulak.springframework.petclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 @Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
+    private final PetTypeService petTypeService;
+
+    public PetServiceMap(PetTypeService petTypeService) {
+        this.petTypeService = petTypeService;
+    }
+
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
@@ -19,7 +26,12 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetS
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object);
+        if(object != null){
+            if(object.getPetType().getId() == null)
+                petTypeService.save(object.getPetType());
+            return super.save(object);
+        }
+        return null;
     }
 
     @Override
