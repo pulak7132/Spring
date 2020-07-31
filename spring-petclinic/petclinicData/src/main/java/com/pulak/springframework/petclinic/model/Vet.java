@@ -1,6 +1,16 @@
 package com.pulak.springframework.petclinic.model;
 
-import com.pulak.springframework.petclinic.model.Person;
+import java.util.Set;
 
 public class Vet extends Person {
+    Set<Specialty> specialties;
+
+    public Set<Specialty> getSpecialties() {
+        return specialties;
+    }
+
+    public void setSpecialties(Set<Specialty> specialties) {
+        this.specialties = specialties;
+    }
+
 }
