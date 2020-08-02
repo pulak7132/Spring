@@ -30,7 +30,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
             if(object.getPets() != null){
                 object.getPets().forEach(pet -> {
                     if(pet.getId() == null)
-                        petService.save(pet);
+                    pet.setId(petService.save(pet).getId());
                 });
             }
             return super.save(object);

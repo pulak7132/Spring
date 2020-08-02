@@ -28,7 +28,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetS
     public Pet save(Pet object) {
         if(object != null){
             if(object.getPetType().getId() == null)
-                petTypeService.save(object.getPetType());
+                object.getPetType().setId(petTypeService.save(object.getPetType()).getId());
             return super.save(object);
         }
         return null;
