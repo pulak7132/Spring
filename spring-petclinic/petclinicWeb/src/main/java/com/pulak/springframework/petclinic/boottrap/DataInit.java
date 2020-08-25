@@ -1,10 +1,7 @@
 package com.pulak.springframework.petclinic.boottrap;
 
 import com.pulak.springframework.petclinic.model.*;
-import com.pulak.springframework.petclinic.services.OwnerService;
-import com.pulak.springframework.petclinic.services.PetTypeService;
-import com.pulak.springframework.petclinic.services.SpecialtyService;
-import com.pulak.springframework.petclinic.services.VetService;
+import com.pulak.springframework.petclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -16,12 +13,14 @@ public class DataInit implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialtyService specialtyService;
+    private final VisitService visitService;
 
-    public DataInit(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtyService specialtyService) {
+    public DataInit(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtyService specialtyService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialtyService = specialtyService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -80,6 +79,11 @@ public class DataInit implements CommandLineRunner {
         owner2.getPets().add(kukiPet);
         ownerService.save(owner2);
 
+        Visit visit1 = new Visit();
+        visit1.setPet(rajuPet);
+        visit1.setDate(LocalDate.now());
+        visit1.setDescription("Ganda paltu jaanwar");
+        visitService.save(visit1);
         System.out.println("Loading Owners....");
 
         Vet vet1 = new Vet();
