@@ -3,11 +3,13 @@ package com.pulak.springframework.petclinic.services.map;
 import com.pulak.springframework.petclinic.model.Visit;
 import com.pulak.springframework.petclinic.services.PetService;
 import com.pulak.springframework.petclinic.services.VisitService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
     private PetService petService;
 
