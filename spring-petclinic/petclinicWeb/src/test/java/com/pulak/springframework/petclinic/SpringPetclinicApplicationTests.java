@@ -1,8 +1,11 @@
 package com.pulak.springframework.petclinic;
 
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.testng.annotations.Test;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+@ExtendWith(SpringExtension.class)
 @SpringBootTest
 class SpringPetclinicApplicationTests {
 
