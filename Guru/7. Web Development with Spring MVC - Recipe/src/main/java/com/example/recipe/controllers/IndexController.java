@@ -23,7 +23,7 @@ public class IndexController {
 //        Optional<UnitOfMeasure> unitOfMeasureOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
 //        System.out.println("Category Id is " + categoryOptional.get().getId());
 //        System.out.println("UnitOfMeasure is " + unitOfMeasureOptional.get().getId());
-        model.addAttribute("recipes", recipeService.getRecipe());
+        model.addAttribute("recipes", recipeService.getRecipes());
         return "index";
     }
 }
